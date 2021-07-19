@@ -5,7 +5,7 @@
 ## Week 1
 Dynamic Programming 
 
-- :heavy_check_mark: Read [Dynamic Programming Notes Hackerearth](https://www.hackerearth.com/practice/notes/dynamic-programming-i-1/)
+:heavy_check_mark: Read [Dynamic Programming Notes Hackerearth](https://www.hackerearth.com/practice/notes/dynamic-programming-i-1/)
 - [:heavy_check_mark:] Read [DP Tutorial involving grids](https://www.hackerearth.com/practice/notes/dynamic-programming-problems-involving-grids/)
 - [:heavy_check_mark:] Read [TopCoder Tutorial on DP](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - Solve the following classical problems:
