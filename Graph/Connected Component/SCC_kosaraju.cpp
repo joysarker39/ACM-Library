@@ -14,13 +14,14 @@ void dfs(int u) {
 void dfs2(int u) {
     vis[u] = 1;
     for(int v: redge[u])
-        if(!vis[v]) dfs2(u);
+        if(!vis[v]) dfs2(v);
     scc.back().push_back(u);
 }
 void SCC() {
     for(int i = 1; i <= n; i++)
         if(!vis[i]) dfs(i);
     memset(vis,0,sizeof vis);
+	reverse(order.begin(), order.end());
     for(int u: order)
         if(!vis[u]) scc.emplace_back(), dfs2(u);
     for(auto X: scc) {
