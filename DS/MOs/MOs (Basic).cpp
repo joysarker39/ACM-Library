@@ -1,3 +1,5 @@
+////0 base Indexing
+
 const int MAX = 2e5+7;
 int arr[MAX + 5], blkId[MAX];
 
@@ -55,7 +57,7 @@ struct MO {
             while(queries[i].l > L) del(L++);
             while(queries[i].r < R) del(R--);
             while(queries[i].r > R) add(++R);
-            perQ[queries[i].id] = unique_values;
+            perQ[queries[i].id] = unique_values;  ///Always check what you want to store
         }
     }
 };
