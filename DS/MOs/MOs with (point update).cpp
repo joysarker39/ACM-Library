@@ -30,7 +30,7 @@ struct Update {
 };
 
 struct MO {
-    int unique_values, L, R, N, T, block_s = 2200; /// 320 is acceptable
+    int unique_values, L, R, N, T, block_s = 2200; /// 2200 is acceptable
     vector < Query > queries;
     vector < Update> updates;
     int freq[MAX+5], upsz, Q, perQ[MAX];
